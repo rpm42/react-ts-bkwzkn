@@ -1,0 +1,29 @@
+html {
+  font-size: var(--bodySize);
+  font-weight: var(--bodyWeight);
+  hyphens: auto;
+  text-align: justify;
+  word-wrap: break-word;
+  font-kerning: normal;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-locale: 'en';
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: var(--bodyFamily);
+  background: var(--background);
+  color: var(--textColor);
+  padding: 0;
+  margin: 0;
+  line-height: var(--lineHeight);
+  height: 100%;
+  background: #111;
+}
+
+h1,
+p {
+  font-family: Lato;
+}
