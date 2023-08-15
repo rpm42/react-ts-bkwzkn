@@ -1,12 +1,13 @@
-import * as React from 'react';
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { FluentProvider, webDarkTheme } from '@fluentui/react-components';
+import * as React from 'react'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { FluentProvider, webDarkTheme } from '@fluentui/react-components'
+import './style.css'
 
-import App from './App';
+import App from './App'
 
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
+const rootElement = document.getElementById('root')
+const root = createRoot(rootElement)
 
 root.render(
   <StrictMode>
@@ -14,4 +15,4 @@ root.render(
       <App />
     </FluentProvider>
   </StrictMode>
-);
+)
